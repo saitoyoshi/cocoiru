@@ -10,5 +10,6 @@
 </head>
 <body>
     <?php include $content ?>
+    <script src="../js/bootstrap.bundle.js"></script>
 </body>
 </html>
