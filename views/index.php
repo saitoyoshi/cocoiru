@@ -1,7 +1,7 @@
 <div class="container py-4">
     <nav class="navbar navbar-expand-sm bg-white navbar-light">
         <div class="container-fluid">
-            <a href="#" class="navbar-brand"><source media="(min-width: 576px)" srcset="../img/logo_md.png"><img src="../img/logo_sm.png" alt="" srcset="" class="img-fluid" style="width: 60px;"><br>
+            <a href="#" class="navbar-brand"><picture><source media="(min-width: 576px)" srcset="../img/logo_sm.png" class="img-my-fluid"><img src="../img/logo_sm.png" alt="ロゴ" srcset="" class="img-my-fluid" style=""></picture><br>
             一般社団法人　こ・こいるTOYOMA</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-bar-content"><span class="navbar-toggler-icon"></span></button>
             <div class="navbar-collapse collapse" id="nav-bar-content">
