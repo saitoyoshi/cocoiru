@@ -1,1 +1,22 @@
 @charset "UTF-8";
+
+/* ブレイクポイントで画像サイズを変える。一旦絶対値だが後で修正するかも */
+.img-my-fluid {
+  width: 100%; /* Default width */
+}
+
+@media (max-width: 576px) {
+  .img-my-fluid {
+    width: 80px; /* Width for <=576px devices */
+  }
+}
+@media (min-width: 576px) {
+  .img-my-fluid {
+    width: 120px; /* Width for ≥576px devices */
+  }
+}
+@media (min-width: 786px) {
+  .img-my-fluid {
+    width: 180px; /* Width for ≥786px devices */
+  }
+}
