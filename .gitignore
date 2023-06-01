@@ -1,2 +1,7 @@
 .htaccess
 bootstrap.*
+.vscode
+memo
+*.txt
+*bak*
+*test*
