@@ -17,6 +17,6 @@
 }
 @media (min-width: 786px) {
   .img-my-fluid {
-    width: 180px; /* Width for ≥786px devices */
+    width: 210px; /* Width for ≥786px devices */
   }
 }
