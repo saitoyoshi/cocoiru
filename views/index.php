@@ -1,6 +1,6 @@
 <div class="container py-4">
     <nav class="navbar navbar-expand-sm bg-white navbar-light">
-        <div class="container-fluid">
+        <div class="container-fluid my-navbar">
             <a href="#" class="navbar-brand"><picture><source media="(min-width: 576px)" srcset="../img/logo_sm.png" class="img-my-fluid"><img src="../img/logo_sm.png" alt="ロゴ" srcset="" class="img-my-fluid mb-3" style=""></picture><br>
             一般社団法人<br>
             <span class="ms-5 ps-4">こ・こいるTOYOMA</span></a>

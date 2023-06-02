@@ -20,3 +20,9 @@
     width: 210px; /* Width for ≥786px devices */
   }
 }
+
+@media (min-width: 575px) {
+  .my-navbar {
+      flex-direction: column;
+  }
+}
