@@ -1,7 +1,7 @@
 <div class="container py-4">
     <nav class="navbar navbar-expand-sm bg-white navbar-light">
         <div class="container-fluid my-navbar">
-            <div class="navbar-brand d-flex flex-column flex-sm-row"><a href="index.php" class="text-dark text-decoration-none">
+            <div class="navbar-brand d-flex flex-column flex-sm-row w-75"><a href="index.php" class="text-dark text-decoration-none">
                 <div class="col-sm-6">
                 <picture><source media="(min-width: 576px)" srcset="../img/logo_sm.png" class="img-my-fluid"><img src="../img/logo_sm.png" alt="ロゴ" srcset="" class="img-my-fluid mb-3" style=""></picture>
                 </div>
