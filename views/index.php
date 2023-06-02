@@ -1,9 +1,10 @@
 <div class="container py-4">
     <nav class="navbar navbar-expand-sm bg-white navbar-light">
         <div class="container-fluid">
-            <a href="#" class="navbar-brand"><picture><source media="(min-width: 576px)" srcset="../img/logo_sm.png" class="img-my-fluid"><img src="../img/logo_sm.png" alt="ロゴ" srcset="" class="img-my-fluid" style=""></picture><br>
-            一般社団法人　こ・こいるTOYOMA</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-bar-content"><span class="navbar-toggler-icon"></span></button>
+            <a href="#" class="navbar-brand"><picture><source media="(min-width: 576px)" srcset="../img/logo_sm.png" class="img-my-fluid"><img src="../img/logo_sm.png" alt="ロゴ" srcset="" class="img-my-fluid mb-3" style=""></picture><br>
+            一般社団法人<br>
+            <span class="ms-5 ps-4">こ・こいるTOYOMA</span></a>
+            <button class="navbar-toggler mb-5" type="button" data-bs-toggle="collapse" data-bs-target="#nav-bar-content"><span class="navbar-toggler-icon"></span></button>
             <div class="navbar-collapse collapse" id="nav-bar-content">
                 <ul class="navbar-nav">
                     <li class="nav-item"><a href="#" class="nav-link">ホーム</a></li>
