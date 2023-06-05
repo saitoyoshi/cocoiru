@@ -6,8 +6,8 @@
                 <picture><source media="(min-width: 576px)" srcset="../img/logo_sm.png" class="img-my-fluid"><img src="../img/logo_sm.png" alt="ロゴ" srcset="" class="img-my-fluid mb-3" style=""></picture>
                 </div>
                 <div class="col-sm-6  mt-sm-3 mt-md-5 ms-md-5">
-            <span class="my-ft-brand">一般社団法人</span><br>
-            <span class="ms-5 ps-4 my-ft-brand">こ・こいるTOYOMA</span></a></div>
+            <h2 class="">一般社団法人</h2>
+            <h2 class="ms-5 ps-4">こ・こいるTOYOMA</h2></a></div>
             </div>
             <button class="navbar-toggler mb-5 pb-5" type="button" data-bs-toggle="collapse" data-bs-target="#nav-bar-content"><span class="navbar-toggler-icon"></span></button>
             <div class="navbar-collapse collapse vw-100 navbar-content-color justify-content-sm-end pe-3" id="nav-bar-content">
@@ -21,17 +21,15 @@
         </div>
     </nav>
 </div>
-<div class="position-relative">
-    <div class="container-container-fluid">
+    <div class="container-container-fluid position-relative">
 
         <img src="../img/pastel.jpg" alt="パステル背景" srcset="" class="pastel-img vw-100">
         <div class="pastel-front-text-container position-absolute translate-middle top-50 start-50">
-            <h3 class="my-ft-pastel-front" ><span class="yellow-marker">こ・こいるTOYOMAでは</span></h3>
+            <h1 class="" ><span class="yellow-marker">こ・こいるTOYOMAでは</span></h1>
             <br>
-            <h3 class=""><span class="yellow-marker my-ft-pastel-front">ご高齢者の方</span></h3>
-            <h3 class="ms-5 ps-5"><span class="yellow-marker my-ft-pastel-front">障害をお持ちの方</span></h3>
-            <h3 ><span class="yellow-marker my-ft-pastel-front">子育て世代</span></h3>
-            <h3 ><span class="yellow-marker my-ft-pastel-front">保証人がいない</span></h3>
+            <h1 class="ms-5 ps-5"><span class="yellow-marker ">ご高齢者の方</span></h1>
+            <h1 class="ms-5 ps-5"><span class="yellow-marker ">障害をお持ちの方</span></h1>
+            <h1 class="ms-5 ps-5"><span class="yellow-marker ">子育て世代</span></h1>
+            <h1 class="ms-5 ps-5"><span class="yellow-marker ">保証人がいない</span></h1>
         </div>
     </div>
-</div>
