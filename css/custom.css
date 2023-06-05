@@ -28,8 +28,11 @@
 }
 
 /* fontsize */
-.my-ft-big {
+.my-ft-brand {
   font-size: 40px;
+}
+.my-ft-pastel-front {
+  font-size: 50px;
 }
 
 /* background-color */
