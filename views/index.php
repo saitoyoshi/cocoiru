@@ -27,7 +27,7 @@
 <div class="container-container-fluid position-relative pt-5 pt-sm-0">
 
     <img src="../img/pastel.jpg" alt="パステル背景" srcset="" class="pastel-img vw-100">
-    <div class="pastel-front-text-container position-absolute translate-middle top-50 start-50">
+    <div class="pastel-front-text-container position-absolute pt-5 pt-sm-0">
         <h1 class="fs-1 mb-5"><span class="yellow-marker">こ・こいるTOYOMAでは</span></h1>
         <h3 class="ms-5 ps-5 fs-1"><span class="yellow-marker ">ご高齢者の方</span></h3>
         <h3 class="ms-5 ps-5 fs-1"><span class="yellow-marker ">障害をお持ちの方</span></h3>

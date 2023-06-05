@@ -54,15 +54,32 @@ body {
 .pastel-img {
   height: auto;
   object-fit: cover;
-}
-@media (max-width: 786px) {
-  .pastel-img {
-      height: 90vw;
-  }
-}
-.yellow-marker {
-  background-color: #fbf77d;
+  height: 50vh;
 }
 .pastel-front-text-container {
   width: 85%;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+@media (min-width: 576px) {
+  .pastel-img {
+      height: 50vh;
+  }
+}
+@media (min-width: 768px) {
+  .pastel-img {
+      height: 410px;
+  }
+}
+@media (min-width: 992px) {
+  .pastel-front-text-container {
+    width: 85%;
+    top:50%;
+    left:75%;
+  }
+}
+
+.yellow-marker {
+  background-color: #fbf77d;
 }
