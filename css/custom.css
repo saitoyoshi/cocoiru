@@ -1,5 +1,16 @@
 @charset "UTF-8";
 
+/* font */
+body {
+  font-family: 'Cormorant Garamond', serif;
+}
+.p-font {
+  font-family: 'Raleway', sans-serif;
+}
+.footer-font {
+  font-family: 'Roboto', sans-serif;
+}
+
 /* ブレイクポイントで画像サイズを変える。一旦絶対値だが後で修正するかも */
 .img-my-fluid {
   width: 100%; /* Default width */
