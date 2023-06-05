@@ -26,3 +26,13 @@
       flex-direction: column;
   }
 }
+
+/* fontsize */
+.my-ft-big {
+  font-size: 40px;
+}
+
+/* background-color */
+.navbar-content-color {
+  background-color: #ffe0d8;
+}
