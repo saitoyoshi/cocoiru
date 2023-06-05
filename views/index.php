@@ -8,8 +8,8 @@
                         </picture>
                     </div>
                     <div class="col-sm-6  mt-sm-3 mt-md-5 ms-md-5">
-                        <h2 class="">一般社団法人</h2>
-                        <h2 class="ms-5 ps-4">こ・こいるTOYOMA</h2>
+                        <h4 class="fs-2">一般社団法人</h4>
+                        <h4 class="ms-5 ps-4 fs-2">こ・こいるTOYOMA</h4>
                 </a></div>
         </div>
         <button class="navbar-toggler mb-5 pb-5" type="button" data-bs-toggle="collapse" data-bs-target="#nav-bar-content"><span class="navbar-toggler-icon"></span></button>
@@ -28,11 +28,10 @@
 
     <img src="../img/pastel.jpg" alt="パステル背景" srcset="" class="pastel-img vw-100">
     <div class="pastel-front-text-container position-absolute translate-middle top-50 start-50">
-        <h1 class=""><span class="yellow-marker">こ・こいるTOYOMAでは</span></h1>
-        <br>
-        <h1 class="ms-5 ps-5"><span class="yellow-marker ">ご高齢者の方</span></h1>
-        <h1 class="ms-5 ps-5"><span class="yellow-marker ">障害をお持ちの方</span></h1>
-        <h1 class="ms-5 ps-5"><span class="yellow-marker ">子育て世代</span></h1>
-        <h1 class="ms-5 ps-5"><span class="yellow-marker ">保証人がいない</span></h1>
+        <h1 class="fs-1 mb-5"><span class="yellow-marker">こ・こいるTOYOMAでは</span></h1>
+        <h3 class="ms-5 ps-5 fs-1"><span class="yellow-marker ">ご高齢者の方</span></h3>
+        <h3 class="ms-5 ps-5 fs-1"><span class="yellow-marker ">障害をお持ちの方</span></h3>
+        <h3 class="ms-5 ps-5 fs-1"><span class="yellow-marker ">子育て世代</span></h3>
+        <h3 class="ms-5 ps-5 fs-1"><span class="yellow-marker ">保証人がいない</span></h3>
     </div>
 </div>
