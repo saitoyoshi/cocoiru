@@ -22,13 +22,16 @@
     </nav>
 </div>
 <div class="position-relative">
-    <img src="../img/pastel.jpg" alt="パステル背景" srcset="" class="">
-    <div class="pastel-front-text-container position-absolute translate-middle top-50 start-50">
-        <h3 class="my-ft-pastel-front" ><span class="yellow-marker">こ・こいるTOYOMAでは</span></h3>
-        <br>
-        <h3 class=""><span class="yellow-marker my-ft-pastel-front">ご高齢者の方</span></h3>
-        <h3 class="ms-5 ps-5"><span class="yellow-marker my-ft-pastel-front">障害をお持ちの方</span></h3>
-        <h3 ><span class="yellow-marker my-ft-pastel-front">子育て世代</span></h3>
-        <h3 ><span class="yellow-marker my-ft-pastel-front">保証人がいない</span></h3>
+    <div class="container-container-fluid">
+
+        <img src="../img/pastel.jpg" alt="パステル背景" srcset="" class="pastel-img vw-100">
+        <div class="pastel-front-text-container position-absolute translate-middle top-50 start-50">
+            <h3 class="my-ft-pastel-front" ><span class="yellow-marker">こ・こいるTOYOMAでは</span></h3>
+            <br>
+            <h3 class=""><span class="yellow-marker my-ft-pastel-front">ご高齢者の方</span></h3>
+            <h3 class="ms-5 ps-5"><span class="yellow-marker my-ft-pastel-front">障害をお持ちの方</span></h3>
+            <h3 ><span class="yellow-marker my-ft-pastel-front">子育て世代</span></h3>
+            <h3 ><span class="yellow-marker my-ft-pastel-front">保証人がいない</span></h3>
+        </div>
     </div>
 </div>

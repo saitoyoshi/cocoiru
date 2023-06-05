@@ -50,7 +50,16 @@ body {
 .navbar-content-color {
   background-color: #ffe0d8;
 }
-
+/* パステル画像部 */
+.pastel-img {
+  height: auto;
+  object-fit: cover;
+}
+@media (max-width: 786px) {
+  .pastel-img {
+      height: 90vw;
+  }
+}
 .yellow-marker {
   background-color: #fbf77d;
 }
