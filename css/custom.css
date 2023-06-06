@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+.max-width-wrapper {
+    width: calc(100vw - 20px);
+}
+
 /* font */
 body {
   font-family: 'Cormorant Garamond', serif;
@@ -16,14 +20,19 @@ body {
   width: 100%; /* Default width */
 }
 
-@media (max-width: 576px) {
+/* @media (min-width: 430px) {
   .img-my-fluid {
-    width: 80px; /* Width for <=576px devices */
+    width: 40px;
+  }
+} */
+@media (min-width: 500px) {
+  .img-my-fluid {
+    width: 100px; /* Width for <=576px devices */
   }
 }
 @media (min-width: 576px) {
   .img-my-fluid {
-    width: 120px; /* Width for ≥576px devices */
+    width: 140px; /* Width for ≥576px devices */
   }
 }
 @media (min-width: 786px) {
@@ -46,15 +55,19 @@ body {
   font-size: 50px;
 } */
 
-/* background-color */
 .navbar-content-color {
   background-color: #ffe0d8;
 }
 /* パステル画像部 */
 .pastel-img {
-  height: auto;
-  object-fit: cover;
+  width: 100%;
+  max-width: 100%;
   height: 50vh;
+}
+@media (min-width: 768px) {
+  .pastel-img {
+    height: 410px;
+  }
 }
 .pastel-front-text-container {
   width: 85%;
@@ -62,25 +75,13 @@ body {
   top: 50%;
   left: 50%;
 }
-@media (min-width: 576px) {
-  .pastel-img {
-      height: 50vh;
-  }
-}
-@media (min-width: 768px) {
-  .pastel-img {
-      height: 410px;
-  }
-}
 @media (min-width: 992px) {
   .pastel-front-text-container {
     width: 50%;
     top:50%;
     left:60%;
     transform: translate(-60%, -50%);
-
   }
-
 }
 
 .yellow-marker {
