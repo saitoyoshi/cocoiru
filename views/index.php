@@ -19,7 +19,7 @@
                 <li class="nav-item"><a href="#" class="nav-link">ホーム</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">私たちの活動</a></li>
                 <li class="nav-item"><a href="#contact" class="nav-link">お問い合わせ</a></li>
-                <li class="nav-item"><a href="../landlords/ooya1.php" class="nav-link">ご協力いただく大家さんを探しています</a></li>
+                <li class="nav-item"><a href="../landlords/ooya1.php" class="nav-link pe-4">ご協力いただく大家さんを探しています</a></li>
             </ul>
         </div>
 </div>
