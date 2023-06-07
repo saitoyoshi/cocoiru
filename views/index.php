@@ -14,9 +14,8 @@
         </div>
 
     </nav>
-    <div class=" position-relative">
-
-        <img src="../img/pastel.jpg" alt="パステル背景" width="1929" height="1071" class="pastel-img max-width-wrapper">
+    <div class="position-relative">
+        <img src="../img/pastel.jpg" alt="パステル背景" width="1929" height="1071" class="pastel-img ">
         <div class="pastel-front-text-container position-absolute pt-5 pt-sm-0">
             <h1 class="fs-1 mb-5"><span class="yellow-marker">こ・こいるTOYOMAでは</span></h1>
             <h3 class="ms-5 ps-5 fs-1"><span class="yellow-marker ">ご高齢者の方</span></h3>
@@ -44,7 +43,7 @@
     </div>
     <div class="">
         <div class="row justify-content-center">
-            <img src="../img/my-p.png" alt="人々" srcset="" class="img-fluid col-md-6 max-width-wrapper" width="632" height="601">
+            <img src="../img/my-p.png" alt="人々" srcset="" class="img-fluid col-md-6 " width="632" height="601">
             <div class="col-md-6 bg-white py-4 px-3 d-md-flex align-items-md-center">
                 <div class="container p-4" style="background-color: #ffeee5;">
                     <h4 class="fs-3 mb-3">サポートについて</h4>
