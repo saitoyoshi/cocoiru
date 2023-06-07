@@ -25,11 +25,11 @@ body {
   width: 100%; /* Default width */
 }
 
-/* @media (min-width: 430px) {
+@media (min-width: 430px) {
   .img-my-fluid {
     width: 40px;
   }
-} */
+}
 @media (min-width: 500px) {
   .img-my-fluid {
     width: 100px; /* Width for <=576px devices */
