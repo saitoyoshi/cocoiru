@@ -88,6 +88,14 @@ body {
     transform: translate(-60%, -50%);
   }
 }
+@media (min-width: 992px) {
+  .pastel-front-text-container {
+    width: 50%;
+    top:50%;
+    left:60%;
+    transform: translate(-60%, -50%);
+  }
+}
 
 .yellow-marker {
   background-color: #fbf77d;
@@ -95,4 +103,9 @@ body {
 /*  */
 .pastel-below-texts {
   background-color: #f8f77d;
+}
+
+/* 相談部 */
+.consultation-max-width {
+  max-width: 688px;
 }
