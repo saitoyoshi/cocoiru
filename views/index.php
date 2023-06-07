@@ -16,10 +16,10 @@
         <button class="navbar-toggler mb-5" type="button" data-bs-toggle="collapse" data-bs-target="#nav-bar-content"><span class="navbar-toggler-icon"></span></button>
         <div class="navbar-collapse collapse max-width-wrapper navbar-content-color justify-content-sm-end " id="nav-bar-content">
             <ul class="navbar-nav">
-                <li class="nav-item"><a href="#" class="nav-link">ホーム</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">私たちの活動</a></li>
-                <li class="nav-item"><a href="#contact" class="nav-link">お問い合わせ</a></li>
-                <li class="nav-item"><a href="../landlords/ooya1.php" class="nav-link pe-4">ご協力いただく大家さんを探しています</a></li>
+                <li class="nav-item fs-4"><a href="#" class="nav-link">ホーム</a></li>
+                <li class="nav-item fs-4"><a href="#" class="nav-link">私たちの活動</a></li>
+                <li class="nav-item fs-4"><a href="#contact" class="nav-link">お問い合わせ</a></li>
+                <li class="nav-item fs-4"><a href="../landlords/ooya1.php" class="nav-link pe-4">ご協力いただく大家さんを探しています</a></li>
             </ul>
         </div>
 </div>
@@ -43,7 +43,7 @@
 </div>
 <div class="my-container-fluid position-relative py-4 px-3" style="background-image: url(../img/green.jpg);">
     <div class="bg-white container text-center p-4 consultation-max-width">
-        <h1 class="fs-1 mb-4">相談費用は一切かかりません</h1>
+        <h1 class="fs-1 mb-4" style="color:#fab30b;">相談費用は一切かかりません</h1>
         <p class="p-font">賃貸住宅のご紹介</p>
         <p class="p-font">入居のサポート</p>
         <p class="p-font">シェアハウスのご紹介</p>
