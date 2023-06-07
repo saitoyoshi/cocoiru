@@ -50,6 +50,41 @@
         <p class="p-font mb-4">グループホームのご紹介</p>
         <p class="p-font pt-3">本人様の状況に応じた住まい方を</p>
         <p class="p-font mb-4 pb-3">ご提案、ご紹介させていただきます</p>
-        <a href="#contact" class="btn btn-primary btn-lg text-dark" style="background-color: #c9c8f8;">お問い合わせ</a>
+        <a href="#contact" class="btn btn-primary btn-lg text-dark" style="background-color: #c9c8f8;border-color: #c9c8f8;">お問い合わせ</a>
+    </div>
+</div>
+<div class="my-container-fluid">
+    <div class="row">
+        <img src="../img/my-p.png" alt="人々" srcset="" class="img-fluid col-md-6" width="632" height="601">
+        <div class="col-md-6 bg-white py-4 px-3 d-md-flex align-items-md-center">
+            <div class="container p-4" style="background-color: #ffeee5;">
+            <h4 class="fs-3 mb-3">サポートについて</h4>
+            <h1 class="fs-2 mb-3">入居、入居後のサポート</h1>
+            <ul>
+                <li class="p-font">不動産店舗と調整</li>
+                <li class="p-font">案内物件への見学同行</li>
+                <li class="p-font">契約手続きのお手伝い</li>
+                <li class="p-font">入居準備の支援</li>
+                <li class="p-font">見守りサービス</li>
+                <li class="p-font">緊急連絡先対応</li>
+                <li class="p-font">生活相談・トラブル対応</li>
+            </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
     </div>
 </div>
