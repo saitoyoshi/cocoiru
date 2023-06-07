@@ -67,3 +67,11 @@ body {
 .consultation-max-width {
   max-width: 688px;
 }
+.people-img {
+  object-fit: cover;
+}
+@media (min-width: 768px) {
+  .people-img {
+    max-height: 360px;
+  }
+}
