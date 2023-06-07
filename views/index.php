@@ -42,16 +42,14 @@
     <h5 class="fs-3">安心して暮らせるサービスをご提供します！</h5>
 </div>
 <div class="my-container-fluid position-relative py-4 px-3" style="background-image: url(../img/green.jpg);">
-<div class="bg-white container text-center p-3 consultation-max-width">
-    <h1 class="fs-1">相談費用は一切かかりません</h1>
-    <!-- p raleway -->
-    <p class="p-font">賃貸住宅のご紹介</p>
-    <p class="p-font">入居のサポート</p>
-    <p class="p-font">シェアハウスのご紹介</p>
-    <p class="p-font">グループホームのご紹介</p>
-    <p class="p-font">本人様の状況に応じた住まい方を</p>
-    <p class="p-font">ご提案、ご紹介させていただきます</p>
-    <button type="button">お問い合わせ</button>
-</div>
-    <!-- <img src="../img/green.jpg" alt="森背景" width="980" height="674" class="max-width-wrapper img-fluid"> -->
+    <div class="bg-white container text-center p-4 consultation-max-width">
+        <h1 class="fs-1 mb-4">相談費用は一切かかりません</h1>
+        <p class="p-font">賃貸住宅のご紹介</p>
+        <p class="p-font">入居のサポート</p>
+        <p class="p-font">シェアハウスのご紹介</p>
+        <p class="p-font mb-4">グループホームのご紹介</p>
+        <p class="p-font pt-3">本人様の状況に応じた住まい方を</p>
+        <p class="p-font mb-4 pb-3">ご提案、ご紹介させていただきます</p>
+        <a href="#contact" class="btn btn-primary btn-lg text-dark" style="background-color: #c9c8f8;">お問い合わせ</a>
+    </div>
 </div>
