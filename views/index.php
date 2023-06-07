@@ -43,7 +43,7 @@
     </div>
     <div class="">
         <div class="row justify-content-center">
-            <img src="../img/my-p.png" alt="人々" srcset="" class="img-fluid col-md-6 " width="632" height="601">
+            <img src="../img/my-p.png" alt="人々" srcset="" class="col-md-6 " width="632" height="601">
             <div class="col-md-6 bg-white py-4 px-3 d-md-flex align-items-md-center">
                 <div class="container p-4" style="background-color: #ffeee5;">
                     <h4 class="fs-3 mb-3">サポートについて</h4>
