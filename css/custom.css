@@ -54,14 +54,6 @@ body {
     transform: translate(-60%, -50%);
   }
 }
-@media (min-width: 992px) {
-  .pastel-front-text-container {
-    width: 50%;
-    top:50%;
-    left:60%;
-    transform: translate(-60%, -50%);
-  }
-}
 
 .yellow-marker {
   background-color: #fbf77d;
