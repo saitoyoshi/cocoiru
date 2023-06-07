@@ -5,10 +5,10 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-bar-content"><span class="navbar-toggler-icon"></span></button>
             <div class="navbar-collapse collapse " id="nav-bar-content">
                 <ul class="navbar-nav ms-auto justify-content-end">
-                    <li class="nav-item fs-5"><a href="#" class="nav-link">ホーム</a></li>
-                    <li class="nav-item fs-5"><a href="#" class="nav-link">私たちの活動</a></li>
-                    <li class="nav-item fs-5"><a href="#contact" class="nav-link">お問い合わせ</a></li>
-                    <li class="nav-item fs-5"><a href="../landlords/ooya1.php" class="nav-link pe-4">ご協力いただく大家さんを探しています</a></li>
+                    <li class="nav-item fs-5 navbar-item-box"><a href="#" class="nav-link">ホーム</a></li>
+                    <li class="nav-item fs-5 navbar-item-box"><a href="#ours" class="nav-link">私たちの活動</a></li>
+                    <li class="nav-item fs-5 navbar-item-box"><a href="#contact" class="nav-link">お問い合わせ</a></li>
+                    <li class="nav-item fs-5 navbar-item-box"><a href="../landlords/ooya1.php" class="nav-link pe-4">ご協力いただく大家さんを探しています</a></li>
                 </ul>
             </div>
         </div>

@@ -29,6 +29,9 @@ body {
 .navbar-content-color {
   background-color: #ffe0d8;
 }
+.navbar-item-box {
+  border: 1px solid #ffe7d9;
+}
 /* パステル画像部 */
 .pastel-img {
   width: 100%;
