@@ -14,6 +14,7 @@
         </div>
 
     </nav>
+    <main>
     <div class="position-relative">
         <img src="../img/pastel.jpg" alt="パステル背景" width="1929" height="1071" class="pastel-img ">
         <div class="pastel-front-text-container position-absolute pt-5 pt-sm-0">
@@ -59,4 +60,5 @@
             </div>
         </div>
     </div>
+    </main>
 </div>
