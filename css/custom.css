@@ -86,3 +86,6 @@ body {
   width: 350px;
   height: 350px;
 }
+.overview-img {
+  max-width: 688px;
+}

@@ -66,13 +66,18 @@
             <div class="mx-auto">
 
                 <h4 class="fs-1 mb-3 mt-4">私たちの活動</h4>
-                <h6 class="fs-4">こ・こいるTOYOMAの住宅支援<h6 class="fs-4">サービス</h6></h6>
+                <h6 class="fs-4">こ・こいるTOYOMAの住宅支援<h6 class="fs-4 mb-0">サービス</h6>
+                </h6>
             </div>
         </div>
         <div class="d-none ours-background-color d-md-block text-center pt-4">
-        <h4 class="fs-1 mb-3">私たちの活動</h4>
-        <h6 class="fs-4"><img src="../img/logo_sm.png" alt="" srcset="" class="logo" width="185" height="169">こ・こいるTOYOMAの住宅支援サービス</h6>
+            <h4 class="fs-1 mb-3">私たちの活動</h4>
+            <h6 class="fs-4 mb-0"><img src="../img/logo_sm.png" alt="" srcset="" class="logo" width="185" height="169">こ・こいるTOYOMAの住宅支援サービス</h6>
         </div>
-        <div><img src="../img/overview_diagram.png" alt="" srcset="" width="824" height="456"></div>
+        <div class="ours-background-color text-center pt-4"><img src="../img/overview_diagram.png" class="overview-img" alt="概要図" srcset="" width="824" height="456"></div>
+        <div class="ours-background-color pt-4 text-center">
+            <p class="p-font">住まいに関すること、生活に関すること、様々なお悩みを多方面から支援する</p>
+            <p class="p-font">​その為に各機関、機構と連携し、対応にあたっていきます。</p>
+        </div>
     </main>
 </div>
