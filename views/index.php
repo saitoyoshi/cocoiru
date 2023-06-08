@@ -115,32 +115,30 @@
             <div class="container footer-container main-background-color text-center py-4">
                 <div class="d-lg-none">
                     <img src="../img/logo_lg.png" alt="ロゴ" srcset="" class="footer-logo pt-2" width="333" height="305">
-                    <h6 class="fs-4 mx-3 mt-5 mb-2">住宅確保要配慮者居住支援法人</h6>
+                    <h6 class="fs-5 mx-3 mt-4 mb-2">住宅確保要配慮者居住支援法人</h6>
 
-                    <h6 class="fs-4 mb-2">富山県指定　第６号</h6>
+                    <h6 class="fs-5 mb-2">富山県指定　第６号</h6>
 
-                    <h6 class="fs-4 mb-3 mb-4">一般社団法人 こ・こいるＴＯＹＡＭＡ</h6>
+                    <h6 class="fs-5 mb-3 mb-4">一般社団法人 こ・こいるＴＯＹＡＭＡ</h6>
 
                     <p class="footer-font mb-1">富山県富山市奥田双葉町15－32</p>
 
                     <p class="footer-font">​奥田双葉町ハイツⅠ　１F</p>
                 </div>
                 <div class="d-none d-lg-block">
-
-                    <h6 class=""><img class="logo me-5" src="../img/logo_sm.png" alt="ロゴ" srcset="" width="185" height="169">住宅確保要配慮者居住支援法人<br><span class="ms-5 ps-5">富山県指定　第６号</span><br><span>一般社団法人 こ・こいるＴＯＹＡＭＡ</span></h6>
-
-                    <h6 class="fs-4"></h6>
-
-                    <h6 class="fs-4"></h6>
+                    <div class="ms-5 ps-5 row justify-content-lg-center align-items-lg-center">
+                        <img class="footer-lg-logo col-lg-4" src="../img/logo_sm.png" alt="ロゴ" srcset="" width="185" height="169">
+                        <h6 class="col-lg-8 text-lg-start fs-5">住宅確保要配慮者居住支援法人<br><span class="ms-5">富山県指定　第６号</span><br><span class="ms-4 ps-5">一般社団法人 こ・こいるＴＯＹＡＭＡ</span>
                     </div>
-                    </div>
-
-                    <p class="footer-font">富山県富山市奥田双葉町15－32</p>
+                    <p class="footer-font mb-1">富山県富山市奥田双葉町15－32</p>
 
                     <p class="footer-font">​奥田双葉町ハイツⅠ　１F</p>
                 </div>
-
             </div>
+
         </div>
-    </footer>
+
+</div>
+</div>
+</footer>
 </div>

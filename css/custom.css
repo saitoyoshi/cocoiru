@@ -93,7 +93,7 @@ body {
 .contact-form-background-colo {
   background-color: #c9c8fb;
 }
-.contact-form-container,.map-container,.footer-container {
+.contact-form-container {
   /* max-width: 736px; */
   max-width: 536px;
 }
@@ -116,4 +116,11 @@ iframe {
 .footer-logo {
   width: 233px;
   height: 233px;
+}
+.footer-lg-logo {
+  width: 100px;
+  height:100px;
+}
+.footer-container,.map-container {
+  max-width: 824px;
 }
