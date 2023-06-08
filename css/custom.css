@@ -100,3 +100,12 @@ body {
   max-width: 436px;
   margin: 0 auto;
 }
+.contact-button {
+  background-color: #c9c8f8;
+  border-color: #c9c8f8;
+}
+.submit-button {
+  background-color: #1a1855;
+  border: #1a1855;
+  width: 153px;
+}

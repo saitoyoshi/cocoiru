@@ -40,7 +40,7 @@
                 <p class="p-font mb-4">グループホームのご紹介</p>
                 <p class="p-font pt-3">本人様の状況に応じた住まい方を</p>
                 <p class="p-font mb-4 pb-3">ご提案、ご紹介させていただきます</p>
-                <a href="#contact" class="btn btn-primary btn-lg text-dark" style="background-color: #c9c8f8;border-color: #c9c8f8;">お問い合わせ</a>
+                <a href="#contact" class="btn btn-lg contact-button text-dark">お問い合わせ</a>
             </div>
         </div>
         <div class="row justify-align-content-md-center mx-0">
@@ -80,7 +80,7 @@
             <p class="p-font">住まいに関すること、生活に関すること、様々なお悩みを多方面から支援する</p>
             <p class="p-font mb-0">​その為に各機関、機構と連携し、対応にあたっていきます。</p>
         </div>
-        <form action="" class="contact-form-background-colo pt-4" >
+        <form action="" method="post" class="contact-form-background-colo pt-4" >
             <div class="contact-form-container px-4 mx-auto" id="contact">
                 <h4 class="fs-2 text-center">お問い合わせ</h4>
                 <div class="mb-3">
@@ -98,6 +98,9 @@
                 <div class="mb-3">
                     <label for="content" class="form-label fw-bold">内容</label>
                     <textarea name="content" class="form-control" id="content" cols="30" rows="7"></textarea>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-lg text-white mt-4 submit-button">送信</button>
                 </div>
             </div>
         </form>
