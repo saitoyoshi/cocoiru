@@ -61,7 +61,7 @@
             </div>
         </div>
         <div class="ours-background-color text-center d-md-none pt-4">
-            <div class=""><img src="../img/logo_lg.png" alt="" srcset="" class="big-logo">
+            <div class=""><img src="../img/logo_lg.png" alt="" srcset="" class="big-logo" width="333" height="305">
             </div>
             <div class="mx-auto">
 
@@ -71,7 +71,8 @@
         </div>
         <div class="d-none ours-background-color d-md-block text-center pt-4">
         <h4 class="fs-1 mb-3">私たちの活動</h4>
-        <h6 class="fs-4"><img src="../img/logo_sm.png" alt="" srcset="" class="logo">こ・こいるTOYOMAの住宅支援サービス</h6>
+        <h6 class="fs-4"><img src="../img/logo_sm.png" alt="" srcset="" class="logo" width="185" height="169">こ・こいるTOYOMAの住宅支援サービス</h6>
         </div>
+        <div><img src="../img/overview_diagram.png" alt="" srcset="" width="824" height="456"></div>
     </main>
 </div>
