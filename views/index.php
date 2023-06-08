@@ -6,7 +6,8 @@
             <div class="navbar-collapse collapse " id="nav-bar-content">
                 <ul class="navbar-nav ms-auto justify-content-end">
                     <li class="nav-item fs-5 navbar-item-box"><a href="#" class="nav-link">ホーム</a></li>
-                    <li class="nav-item fs-5 navbar-item-box"><a href="#ours" class="nav-link">私たちの活動</a></li>
+                    <li class="d-md-none nav-item fs-5 navbar-item-box"><a href="#ours" class="nav-link">私たちの活動</a></li>
+                    <li class="d-none d-md-block nav-item fs-5 navbar-item-box"><a href="#ours2" class="nav-link">私たちの活動</a></li>
                     <li class="nav-item fs-5 navbar-item-box"><a href="#contact" class="nav-link">お問い合わせ</a></li>
                     <li class="nav-item fs-5 navbar-item-box"><a href="../landlords/ooya1.php" class="nav-link pe-4">ご協力いただく大家さんを探しています</a></li>
                 </ul>
@@ -60,7 +61,7 @@
                 </div>
             </div>
         </div>
-        <div class="ours-background-color text-center d-md-none pt-4">
+        <div class="ours-background-color text-center d-md-none pt-4" id="ours">
             <div class=""><img src="../img/logo_lg.png" alt="" srcset="" class="big-logo" width="333" height="305">
             </div>
             <div class="mx-auto">
@@ -70,14 +71,35 @@
                 </h6>
             </div>
         </div>
-        <div class="d-none ours-background-color d-md-block text-center pt-4">
+        <div class="d-none ours-background-color d-md-block text-center pt-4 " id="ours2">
             <h4 class="fs-1 mb-3">私たちの活動</h4>
-            <h6 class="fs-4 mb-0"><img src="../img/logo_sm.png" alt="" srcset="" class="logo" width="185" height="169">こ・こいるTOYOMAの住宅支援サービス</h6>
+            <h6 class="fs-4 mb-0"><img src="../img/logo_sm.png" alt="" srcset="" class="logo" width="185" height="169"><span class="ps-3">こ・こいるTOYOMAの住宅支援サービス</span></h6>
         </div>
         <div class="ours-background-color text-center pt-4"><img src="../img/overview_diagram.png" class="overview-img" alt="概要図" srcset="" width="824" height="456"></div>
-        <div class="ours-background-color pt-4 text-center">
+        <div class="ours-background-color py-4 text-center">
             <p class="p-font">住まいに関すること、生活に関すること、様々なお悩みを多方面から支援する</p>
-            <p class="p-font">​その為に各機関、機構と連携し、対応にあたっていきます。</p>
+            <p class="p-font mb-0">​その為に各機関、機構と連携し、対応にあたっていきます。</p>
         </div>
+        <form action="" class="contact-form-background-colo pt-4">
+            <div class="contact-form-container px-4 mx-auto">
+                <h4 class="fs-2 text-center">お問い合わせ</h4>
+                <div class="mb-3">
+                    <label for="first-name" class="form-label fw-bold">名</label>
+                    <input type="text" class="form-control " name="first-name" id="first-name">
+                </div>
+                <div class="mb-3">
+                    <label for="last-name" class="form-label fw-bold">姓</label>
+                    <input type="text" class="form-control" name="last-name" id="last-name">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label fw-bold">メールアドレス</label>
+                    <input type="text" class="form-control" name="email" id="email">
+                </div>
+                <div class="mb-3">
+                    <label for="content" class="form-label fw-bold">内容</label>
+                    <textarea name="content" class="form-control" id="content" cols="30" rows="7"></textarea>
+                </div>
+            </div>
+        </form>
     </main>
 </div>

@@ -89,3 +89,14 @@ body {
 .overview-img {
   max-width: 688px;
 }
+.contact-form-background-colo {
+  background-color: #c9c8fb;
+}
+.contact-form-container {
+  /* max-width: 736px; */
+  max-width: 536px;
+}
+.input-form-max-width {
+  max-width: 436px;
+  margin: 0 auto;
+}
