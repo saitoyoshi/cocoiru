@@ -26,8 +26,9 @@ body {
 
 /* ブレイクポイントで画像サイズを変える。一旦絶対値だが後で修正するかも */
 
-.navbar-content-color {
-  background-color: #ffe0d8;
+.main-background-color {
+  /* background-color: #ffe0d8; */
+  background-color: #ffeee5;
 }
 .navbar-item-box {
   border: 1px solid #ffe7d9;
@@ -92,7 +93,7 @@ body {
 .contact-form-background-colo {
   background-color: #c9c8fb;
 }
-.contact-form-container {
+.contact-form-container,.map-container,.footer-container {
   /* max-width: 736px; */
   max-width: 536px;
 }
@@ -108,4 +109,11 @@ body {
   background-color: #1a1855;
   border: #1a1855;
   width: 153px;
+}
+iframe {
+  width: 100%;
+}
+.footer-logo {
+  width: 233px;
+  height: 233px;
 }

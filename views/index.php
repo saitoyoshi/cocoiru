@@ -1,6 +1,6 @@
 <div class="wrapper">
     <nav class="navbar navbar-expand-lg bg-white navbar-light py-0">
-        <div class="container-fluid navbar-content-color">
+        <div class="container-fluid main-background-color">
             <a class="navbar-brand fs-4" href="index.php"><img class="logo me-3" src="../img/logo_sm.png" alt="ロゴ" srcset="" width="185" height="169">一般社団法人<span class="ms-3">こ・こいるTOYOMA</span></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-bar-content"><span class="navbar-toggler-icon"></span></button>
             <div class="navbar-collapse collapse " id="nav-bar-content">
@@ -46,7 +46,7 @@
         <div class="row justify-align-content-md-center mx-0">
             <img src="../img/my-p.png" alt="人々" srcset="" class="col-md-6 px-0 people-img" width="632" height="601">
             <div class="col-md-6 bg-white py-4 px-3 d-md-flex align-items-md-center">
-                <div class="container p-4" style="background-color: #ffeee5;">
+                <div class="container p-4 main-background-color">
                     <h4 class="fs-3 mb-3">サポートについて</h4>
                     <h1 class="fs-2 mb-3">入居、入居後のサポート</h1>
                     <ul>
@@ -80,7 +80,7 @@
             <p class="p-font">住まいに関すること、生活に関すること、様々なお悩みを多方面から支援する</p>
             <p class="p-font mb-0">​その為に各機関、機構と連携し、対応にあたっていきます。</p>
         </div>
-        <form action="" method="post" class="contact-form-background-colo pt-4" >
+        <form action="" method="post" class="contact-form-background-colo pt-4 pb-5">
             <div class="contact-form-container px-4 mx-auto" id="contact">
                 <h4 class="fs-2 text-center">お問い合わせ</h4>
                 <div class="mb-3">
@@ -104,5 +104,43 @@
                 </div>
             </div>
         </form>
+        <!-- 住所部もmain-background-color -->
+        <div class="container py-5 map-container px-0">
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3198.60752773919!2d137.21749359999998!3d36.707968!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff79a0af145192f%3A0x37ccb785e07196bf!2z44CSOTMwLTA4NTEg5a-M5bGx55yM5a-M5bGx5biC5aWl55Sw5Y-M6JGJ55S677yR77yV4oiS77yT77ySIOWlpeeUsOWPjOiRieeUuiDjg4_jgqTjg4QgSQ!5e0!3m2!1sja!2sjp!4v1686254051384!5m2!1sja!2sjp" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
     </main>
+    <footer>
+        <div class="bg-white mx-3">
+            <div class="container footer-container main-background-color text-center py-4">
+                <div class="d-lg-none">
+                    <img src="../img/logo_lg.png" alt="ロゴ" srcset="" class="footer-logo pt-2" width="333" height="305">
+                    <h6 class="fs-4 mx-3 mt-5 mb-2">住宅確保要配慮者居住支援法人</h6>
+
+                    <h6 class="fs-4 mb-2">富山県指定　第６号</h6>
+
+                    <h6 class="fs-4 mb-3 mb-4">一般社団法人 こ・こいるＴＯＹＡＭＡ</h6>
+
+                    <p class="footer-font mb-1">富山県富山市奥田双葉町15－32</p>
+
+                    <p class="footer-font">​奥田双葉町ハイツⅠ　１F</p>
+                </div>
+                <div class="d-none d-lg-block">
+
+                    <h6 class=""><img class="logo me-5" src="../img/logo_sm.png" alt="ロゴ" srcset="" width="185" height="169">住宅確保要配慮者居住支援法人<br><span class="ms-5 ps-5">富山県指定　第６号</span><br><span>一般社団法人 こ・こいるＴＯＹＡＭＡ</span></h6>
+
+                    <h6 class="fs-4"></h6>
+
+                    <h6 class="fs-4"></h6>
+                    </div>
+                    </div>
+
+                    <p class="footer-font">富山県富山市奥田双葉町15－32</p>
+
+                    <p class="footer-font">​奥田双葉町ハイツⅠ　１F</p>
+                </div>
+
+            </div>
+        </div>
+    </footer>
 </div>
