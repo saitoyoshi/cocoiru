@@ -26,7 +26,7 @@
                 <h3 class="ms-5 ps-5 fs-1"><span class="yellow-marker ">保証人がいない</span></h3>
             </div>
         </div>
-        <div class=" pastel-below-texts text-center py-4 mw-100">
+        <div class="pastel-below-texts text-center py-4 mw-100">
             <h5 class="fs-3 mb-4">などの理由で住まいの確保にお困りの方に
             </h5>
             <h5 class="fs-3">安心して暮らせるサービスをご提供します！</h5>
@@ -139,6 +139,9 @@
         </div>
 
 </div>
+</div>
+<div class="footer-banner text-center py-3">
+    <small class="footer-font fs-6">All rights reversed　こ・こいるTOYAMA</small>
 </div>
 </footer>
 </div>
