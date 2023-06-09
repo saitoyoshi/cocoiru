@@ -9,7 +9,9 @@ require_once __DIR__ . '/includes/constants.php';
 
 $msg = '';//一時的に残すが理解できたらいずれは消す
 $errors = [];
+$sendSuccess = false;
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
+    $sendSuccess = false;
     // $firstName = strip_tags($_POST['first-name']);
     $firstName = substr(strip_tags($_POST['first-name']), 0, 255);
     if (strlen($firstName) === 0) {
@@ -52,6 +54,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                 $errors[] = "申し訳ありません。なんらかの不具合によりメールが送信できませんでした";
             } else {
                 $msg .= 'Message sent!';
+                $sendSuccess = true;
             }
         }
     }

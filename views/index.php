@@ -90,6 +90,9 @@
                     <?php endforeach; ?>
                     </ul>
                 <?php endif; ?>
+                <?php if ($sendSuccess) : ?>
+                    <p class="text-primary mt-3">メールが送信されました</p>
+                <?php endif; ?>
                 <div class="mb-3">
                     <label for="first-name" class="form-label fw-bold">名</label>
                     <input type="text" class="form-control " name="first-name" id="first-name">
