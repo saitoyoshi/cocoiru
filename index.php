@@ -7,15 +7,28 @@ use PHPMailer\PHPMailer\Exception;
 require __DIR__ . '/vendor/autoload.php';
 require_once __DIR__ . '/includes/constants.php';
 
-$msg = '';
+$msg = '';//一時的に残すが理解できたらいずれは消す
+$errors = [];
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
-    $firstName = strip_tags($_POST['first-name']);
-    $lastName = strip_tags($_POST['last-name']);
+    // $firstName = strip_tags($_POST['first-name']);
+    $firstName = substr(strip_tags($_POST['first-name']), 0, 255);
+    if (strlen($firstName) === 0) {
+        $errors[] = '名前が入力されていません';
+    }
+    // $lastName = strip_tags($_POST['last-name']);
+    $lastName = substr(strip_tags($_POST['last-name']), 0, 255);
+    if (strlen($lastName) === 0) {
+        $errors[] = '名字が入力されていません';
+    }
     $email = $_POST['email'];
-    $content = strip_tags($_POST['content']);
+    $content = substr(strip_tags($_POST['content']), 0, 16384) ;
+    if (strlen($content) === 0) {
+        $errors[] = '内容が入力されていません';
+    }
 
     if (!PHPMailer::validateAddress($email)) {
         $msg .= "Error: invalid email address provided";
+        $errors[] = "メールアドレスの形式が正しくありません";
     } else {
         $mail = new PHPMailer();
         // $mail->SMTPDebug = 2; //デバッグ用
@@ -33,11 +46,13 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         $mail->setFrom(SMTP_USERNAME, $lastName . ' ' . $firstName);
         $mail->addAddress('cocoiru@thinkdiycafe.sakura.ne.jp');
         $mail->addReplyTo($email, $lastName . ' ' . $firstName);
-
-        if (!$mail->send()) {
-            $msg .= 'Mailer Error: ' . $mail->ErrorInfo;
-        } else {
-            $msg .= 'Message sent!';
+        if (count($errors) === 0) {
+            if (!$mail->send()) {
+                $msg .= 'Mailer Error: ' . $mail->ErrorInfo;
+                $errors[] = "申し訳ありません。なんらかの不具合によりメールが送信できませんでした";
+            } else {
+                $msg .= 'Message sent!';
+            }
         }
     }
 }

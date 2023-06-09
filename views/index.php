@@ -80,9 +80,16 @@
             <p class="p-font">住まいに関すること、生活に関すること、様々なお悩みを多方面から支援する</p>
             <p class="p-font mb-0">​その為に各機関、機構と連携し、対応にあたっていきます。</p>
         </div>
-        <form action="" method="post" class="contact-form-background-colo pt-4 pb-5">
+        <form action="#contact" method="post" class="contact-form-background-colo pt-4 pb-5">
             <div class="contact-form-container px-4 mx-auto" id="contact">
                 <h4 class="fs-2 text-center">お問い合わせ</h4>
+                <?php if (count($errors) !== 0) : ?>
+                    <ul class="mt-3">
+                    <?php foreach ($errors as $error) : ?>
+                        <li class="text-danger"><?php echo $error ?></li>
+                    <?php endforeach; ?>
+                    </ul>
+                <?php endif; ?>
                 <div class="mb-3">
                     <label for="first-name" class="form-label fw-bold">名</label>
                     <input type="text" class="form-control " name="first-name" id="first-name">
