@@ -14,5 +14,6 @@
 <body>
     <?php include $content ?>
     <script src="../js/bootstrap.bundle.js"></script>
+    <script src="../js/confirmMessage.js"></script>
 </body>
 </html>

@@ -110,7 +110,7 @@
                     <textarea name="content" class="form-control" id="content" cols="30" rows="7"></textarea>
                 </div>
                 <div class="text-center">
-                    <button type="submit" class="btn btn-lg text-white mt-4 submit-button">送信</button>
+                    <button type="submit" class="btn btn-lg text-white mt-4 submit-button" onclick="return confirmMessage('メールを送信してもよろしいですか？')">送信</button>
                 </div>
             </div>
         </form>
