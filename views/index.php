@@ -9,7 +9,7 @@
                     <li class="d-md-none nav-item fs-5 navbar-item-box"><a href="index.php#ours" class="nav-link">私たちの活動</a></li>
                     <li class="d-none d-md-block nav-item fs-5 navbar-item-box"><a href="index.php#ours2" class="nav-link">私たちの活動</a></li>
                     <li class="nav-item fs-5 navbar-item-box"><a href="index.php#contact" class="nav-link">お問い合わせ</a></li>
-                    <li class="nav-item fs-5 navbar-item-box"><a href="../landlords/ooya1.php" class="nav-link pe-4">ご協力いただく大家さんを探しています</a></li>
+                    <li class="nav-item fs-5 navbar-item-box"><a href="ooya1.php" class="nav-link pe-4">ご協力いただく大家さんを探しています</a></li>
                 </ul>
             </div>
         </div>
