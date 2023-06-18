@@ -1,4 +1,3 @@
-<div class="wrapper">
     <nav class="navbar navbar-expand-lg bg-white navbar-light py-0">
         <div class="container-fluid main-background-color">
             <a class="navbar-brand fs-4" href="index.php"><img class="logo me-3" src="../img/logo_sm.png" alt="ロゴ" srcset="" width="185" height="169">一般社団法人<span class="ms-3">こ・こいるTOYOMA</span></a>
@@ -150,4 +149,3 @@
     <small class="footer-font fs-6">All rights reversed　こ・こいるTOYAMA</small>
 </div>
 </footer>
-</div>

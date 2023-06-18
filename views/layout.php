@@ -12,7 +12,9 @@
     <title><?php echo $title ?></title>
 </head>
 <body>
-    <?php include $content ?>
+    <div class="wrapper">
+        <?php include $content ?>
+    </div>
     <script src="../js/bootstrap.bundle.js"></script>
     <script src="../js/confirmMessage.js"></script>
 </body>
