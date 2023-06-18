@@ -5,10 +5,10 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-bar-content"><span class="navbar-toggler-icon"></span></button>
             <div class="navbar-collapse collapse " id="nav-bar-content">
                 <ul class="navbar-nav ms-auto justify-content-end">
-                    <li class="nav-item fs-5 navbar-item-box"><a href="#" class="nav-link">ホーム</a></li>
-                    <li class="d-md-none nav-item fs-5 navbar-item-box"><a href="#ours" class="nav-link">私たちの活動</a></li>
-                    <li class="d-none d-md-block nav-item fs-5 navbar-item-box"><a href="#ours2" class="nav-link">私たちの活動</a></li>
-                    <li class="nav-item fs-5 navbar-item-box"><a href="#contact" class="nav-link">お問い合わせ</a></li>
+                    <li class="nav-item fs-5 navbar-item-box"><a href="index.php" class="nav-link">ホーム</a></li>
+                    <li class="d-md-none nav-item fs-5 navbar-item-box"><a href="index.php#ours" class="nav-link">私たちの活動</a></li>
+                    <li class="d-none d-md-block nav-item fs-5 navbar-item-box"><a href="index.php#ours2" class="nav-link">私たちの活動</a></li>
+                    <li class="nav-item fs-5 navbar-item-box"><a href="index.php#contact" class="nav-link">お問い合わせ</a></li>
                     <li class="nav-item fs-5 navbar-item-box"><a href="../landlords/ooya1.php" class="nav-link pe-4">ご協力いただく大家さんを探しています</a></li>
                 </ul>
             </div>
@@ -40,7 +40,7 @@
                 <p class="p-font mb-4">グループホームのご紹介</p>
                 <p class="p-font pt-3">本人様の状況に応じた住まい方を</p>
                 <p class="p-font mb-4 pb-3">ご提案、ご紹介させていただきます</p>
-                <a href="#contact" class="btn btn-lg contact-button text-dark">お問い合わせ</a>
+                <a href="index.php#contact" class="btn btn-lg contact-button text-dark">お問い合わせ</a>
             </div>
         </div>
         <div class="row justify-align-content-md-center mx-0">
@@ -80,7 +80,7 @@
             <p class="p-font">住まいに関すること、生活に関すること、様々なお悩みを多方面から支援する</p>
             <p class="p-font mb-0">​その為に各機関、機構と連携し、対応にあたっていきます。</p>
         </div>
-        <form action="#contact" method="post" class="contact-form-background-colo pt-4 pb-5">
+        <form action="index.php#contact" method="post" class="contact-form-background-colo pt-4 pb-5">
             <div class="contact-form-container px-4 mx-auto" id="contact">
                 <h4 class="fs-2 text-center">お問い合わせ</h4>
                 <?php if (count($errors) !== 0) : ?>
