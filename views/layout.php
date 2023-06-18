@@ -13,6 +13,7 @@
 </head>
 <body>
     <div class="wrapper">
+        <?php include __DIR__ . '/navbar.php'; ?>
         <?php include $content ?>
     </div>
     <script src="../js/bootstrap.bundle.js"></script>
