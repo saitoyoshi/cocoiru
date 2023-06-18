@@ -94,12 +94,8 @@
                     <p class="text-primary mt-3">メールが送信されました</p>
                 <?php endif; ?>
                 <div class="mb-3">
-                    <label for="first-name" class="form-label fw-bold">名</label>
-                    <input type="text" class="form-control " name="first-name" id="first-name">
-                </div>
-                <div class="mb-3">
-                    <label for="last-name" class="form-label fw-bold">姓</label>
-                    <input type="text" class="form-control" name="last-name" id="last-name">
+                    <label for="name" class="form-label fw-bold">氏名</label>
+                    <input type="text" class="form-control " name="name" id="name">
                 </div>
                 <div class="mb-3">
                     <label for="email" class="form-label fw-bold">メールアドレス</label>
