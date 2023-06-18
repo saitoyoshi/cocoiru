@@ -15,6 +15,7 @@
     <div class="wrapper">
         <?php include __DIR__ . '/navbar.php'; ?>
         <?php include $content ?>
+        <?php include __DIR__ . '/bottom-parts.php'; ?>
     </div>
     <script src="../js/bootstrap.bundle.js"></script>
     <script src="../js/confirmMessage.js"></script>
