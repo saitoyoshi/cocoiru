@@ -38,13 +38,14 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         $mail->Body = "問い合わせフォームより\n\n" . $content;
         $mail->CharSet = PHPMailer::CHARSET_UTF8;
         $mail->setFrom(SMTP_USERNAME, $name);
-        $mail->addAddress('cocoiru@thinkdiycafe.sakura.ne.jp');
+        $mail->addAddress(SEND_TO);
         $mail->addReplyTo($email, $name);
         if (count($errors) === 0) {
             if (!$mail->send()) {
                 $errors[] = "申し訳ありません。なんらかの不具合によりメールが送信できませんでした";
             } else {
                 $sendSuccess = true;
+                // exit;
             }
         }
     }
